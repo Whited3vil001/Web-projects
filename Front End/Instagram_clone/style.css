@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "billabong";
+  src: url("C:\Users\ak930\OneDrive\Documents\PROJECTS BCA\MINOR\Instagram_clone\Resources\billabong\Billabong.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "billabong", sans-serif;
+}
+
+.main {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  padding: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#img1 {
+  margin-right: -45px;
+}
+
+.slides {
+  position: absolute;
+  left: 449px;
+  bottom: -85px;
+  width: 100%;
+  height: 100%;
+}
+
+.slides img {
+  width: 17%;
+  height: auto;
+  position: absolute;
+}
+
+.loginpage {
+  border: 1px solid #dedddd;
+  padding: 20px 35px;
+  margin: 0 45px;
+}
+
+.loginpage img {
+  width: 174px;
+  height: 100px;
+  margin: 0 65px;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.loginpage input {
+  margin: 3px;
+  width: 268px;
+  height: 36px;
+  border: 1px solid #efefef;
+  border-radius: 2px;
+  outline: 1px solid #cfcfcf;
+}
+
+.loginpage input::placeholder {
+  font-size: 12px;
+  padding: 15px;
+  background: #f9f9f9;
+}
+
+.loginpage button {
+  margin: 3px;
+  width: 272px;
+  height: 32px;
+  margin-top: 10px;
+  background: #4cb5f9;
+  border: 0;
+  outline: 0;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.sep {
+  height: 2px;
+  width: 125px;
+  background: #efefef;
+}
+
+.or span {
+  color: #999;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.facebook i {
+  color: #385185;
+}
+
+.facebook h4 {
+  color: #385185;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.txt {
+  font-size: 14px;
+}
+
+.forgot {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.forgot p {
+  font-size: 13px;
+  color: #0e368e;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  border: 1px solid #dedddd;
+  padding: 20px 35px;
+  margin: 5px 45px;
+}
+
+.signup .link {
+  color: #4295f6;
+  margin-left: 5px;
+}
+
+.getapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download img {
+  height: 40px;
+  width: 130px;
+}
+
+.support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.support ul li {
+  justify-content: space-between;
+}
+
+.support ul li a {
+  margin-left: 8px;
+  color: #737373;
+  font-size: 14px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  padding: 50px 50px;
+}
+
+.copyright span {
+  color: #737373;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+select {
+  color: #737373;
+  font-size: 13px;
+  border: 0;
+  outline: 0;
+}

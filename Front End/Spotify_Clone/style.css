@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -53,7 +54,7 @@ a {
 }
 
 .fa {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .glow {
@@ -61,7 +62,7 @@ a {
 }
 
 .text {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .scroll {
@@ -99,26 +100,26 @@ a {
 }
 
 .playlist a h4 {
-  font-size: 16px;
+  font-size: 1rem4;
   color: white;
   margin-bottom: 20px;
 }
 
 .podcast a h4 {
-  font-size: 16px;
+  font-size: 1rem;
   color: white;
   margin-bottom: 20px;
   font-weight: 800;
 }
 
 .playlist a p {
-  font-size: 14px;
+  font-size: 0.875rem4;
   color: white;
   margin-bottom: 20px;
 }
 
 .podcast a p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: white;
   margin-bottom: 20px;
 }
@@ -139,7 +140,7 @@ a {
 .privacy ul li {
   justify-content: space-between;
   padding: 8px;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .privacy ul li a {
@@ -158,7 +159,7 @@ a {
 .lang button {
   border-radius: 50px;
   padding: 13px 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   outline: 0;
   border: 1px solid white;
   background: transparent;
@@ -182,7 +183,7 @@ a {
 .mainsection .topnav {
   display: flex;
   background: #101010;
-  width: 1108px;
+  width: 1168px;
   justify-content: space-between;
   padding: 10px 30px;
   border-radius: 10px 10px 0 0;
@@ -194,14 +195,14 @@ a {
   padding: 6px;
   color: white;
   border: 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   border-radius: 100%;
 
   margin-top: 8px;
 }
 
 .topnav .login button {
-  font-size: 16px;
+  font-size: 1rem;
   padding: 15px 30px;
   border-radius: 50px;
 }
@@ -238,7 +239,7 @@ a {
 
 .playlists .popular-artist a p {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   padding: 8px;
   margin-left: 8px;
@@ -273,7 +274,7 @@ a {
   margin-left: 20px;
   margin-bottom: 8px;
   color: #e1e1e1;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .artists-img button p {
@@ -281,7 +282,7 @@ a {
   margin-left: 20px;
   margin-bottom: 10px;
   color: #a1a1a1;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .artists-img .play {
@@ -295,7 +296,7 @@ a {
   padding: 15px;
   right: 10px;
   top: -120px;
-  font-size: 20px;
+  font-size: 1.25rem;
   opacity: 0;
   transform: 0.3s ease all;
 }
@@ -334,7 +335,7 @@ a {
   margin-left: 20px;
   margin-bottom: 8px;
   color: #e1e1e1;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .album button p {
@@ -342,7 +343,7 @@ a {
   margin-left: 20px;
   margin-bottom: 10px;
   color: #a1a1a1;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
 }
 
@@ -357,7 +358,7 @@ a {
   padding: 15px;
   right: 10px;
   top: -90px;
-  font-size: 20px;
+  font-size: 1.25rem;
   opacity: 0;
   transform: 0.3s ease all;
 }
@@ -369,7 +370,7 @@ a {
 
 .playlists .popular-albums a p {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   padding: 8px;
   margin-left: 8px;
@@ -377,7 +378,7 @@ a {
 
 .playlists .popular-radio a p {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   padding: 8px;
   margin-left: 8px;
@@ -385,7 +386,7 @@ a {
 
 .playlists .featured-charts a p {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   padding: 8px;
   margin-left: 8px;
@@ -393,7 +394,7 @@ a {
 
 .playlists .spotify-playlists a p {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   padding: 8px;
   margin-left: 8px;
@@ -401,7 +402,7 @@ a {
 
 .playlists .spotify-ex-shows a p {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   padding: 8px;
   margin-left: 8px;
@@ -409,7 +410,7 @@ a {
 
 .playlists .trending-epi a p {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   padding: 8px;
   margin-left: 8px;
@@ -457,7 +458,7 @@ a {
   color: white;
 
   margin-bottom: 12px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .footer-section .footer .footer-links ul li {
@@ -467,7 +468,7 @@ a {
 
 .footer-section .footer .footer-links ul li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   color: #969393;
   cursor: pointer;
 }
@@ -502,42 +503,45 @@ hr {
 .copyright {
   padding: 0 40px;
   color: #969393;
-  font-size: 15px;
+  font-size: 0.9375rem;
   margin-bottom: 30px;
 }
 
 .preview {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: linear-gradient(to right, #ae2896, #509bf5);
   position: fixed;
-  bottom: 0;
+  top: 658px;
   left: 0;
   right: 0;
-  padding: 12px 40px;
+  bottom: 0;
+  padding: 8px 15px;
   margin: 8px 8px;
   border-radius: 1px;
 }
 
 .preview h4 {
-  font-size: 14px;
-
-  margin-bottom: 9px;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
   color: white;
 }
 
 .preview p {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 300;
   color: white;
 }
 
 .preview button {
-  padding: 12px 30px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 11px;
   border: 0;
   outline: 0;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
 
   color: black;
 }

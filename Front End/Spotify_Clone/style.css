@@ -508,6 +508,8 @@ hr {
 }
 
 .preview {
+  height: 10vh;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -524,6 +526,7 @@ hr {
 
 .preview h4 {
   font-size: 0.875rem;
+
   margin-bottom: 0.5rem;
   color: white;
 }
